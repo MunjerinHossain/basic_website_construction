@@ -24,7 +24,6 @@ nav ul li {
     display: inline;
     margin-right: 10px;
     background-color: burlywood;
-  
    
 }
 
@@ -32,9 +31,9 @@ main {
     padding: 50px;
 }
 
-/* section {
-    text-align: center;
-} */
+section {
+text-align: center;
+}
 
 footer {
     /* background-color: #007bff; */
