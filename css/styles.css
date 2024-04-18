@@ -24,6 +24,8 @@ nav ul li {
     display: inline;
     margin-right: 10px;
     background-color: burlywood;
+    width: 100px;
+    height: 100px;
   
    
 }
