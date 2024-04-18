@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #007bff;
+  background-color: #00877a;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -35,6 +35,20 @@ main {
 /* section {
     text-align: center;
 } */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
 
 .page {
   width: 100vw;
