@@ -27,14 +27,14 @@
         <h2>Artificial Intelligence</h2>
         <p>Overview of AI technologies...</p>
       </section>
-    </main>
 
-<div class="container">
+      <div class="container">
     <h1>Latest Reviews</h1>
     
     <!-- Display reviews from database -->
     <div id="reviews-container">
         <!-- Reviews will be loaded here dynamically -->
+        <?php include "get_reviewers.php"?>
     </div>
     
     <h2>Add a Review</h2>
@@ -51,6 +51,9 @@
         <input type="submit" value="Submit Review">
     </form>
 </div>
+    </main>
+
+
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/script.js"></script>
