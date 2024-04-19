@@ -72,7 +72,7 @@
     <h1>Welcome to the Book Land</h1>
     <nav>
       <ul>
-        <li><a href="index.php">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>

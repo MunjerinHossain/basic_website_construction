@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO reviews (name, rating, comment) VALUES ('$name', '$rating', '$comment')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.php");
+        header("Location: index.html");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
