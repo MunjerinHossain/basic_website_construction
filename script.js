@@ -1,3 +1,5 @@
+// This JS Script to handle the form submission:
+
 $(document).ready(function() {
     // Load reviews when page is ready
     loadReviews();

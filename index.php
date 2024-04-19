@@ -21,6 +21,7 @@
     <main>
         <section>
             <h2 align="center">Top ranked Books</h2>
+            <!-- created table of book with hyperclick to open individual page: -->
             <table>
                 <thead>
                     <tr>
@@ -49,16 +50,21 @@
                 </tbody>
             </table>
 
+            <!-- These individual div page will open single book page upon clicking on the hyperclick from the table: -->
+
             <div class="page" id="one">
-            <div class="bookHeader" style="background-color: #00877a; padding: 20px; text-align: center;">
-                <h2 style="color:#fff">The Zen of CSS Design</h2>
-                <ul style="list-style-type: none; padding: 0; align-items: center;text-align: center;">
-                    <li><a href="#">Back to Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="books.php">Read Books</a></li>
-                </ul>
-            </div>
-            <?php include "review.php" ?>
+                <div class="bookHeader" style="background-color: #00877a; padding: 20px; text-align: center;">
+                    <h2 style="color:#fff">The Zen of CSS Design</h2>
+                    <ul style="list-style-type: none; padding: 0; align-items: center;text-align: center;">
+                        <li><a href="#">Back to Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="books.php">Read Books</a></li>
+                    </ul>
+                </div>
+
+                <!-- This PHP script will show the latest review dynamically, and will have a form to add review: -->
+
+                <?php include "review.php" ?>
             </div>
 
             <div class="page" id="two">
@@ -70,19 +76,20 @@
                         <li><a href="books.php">Read Books</a></li>
                     </ul>
                 </div>
-
+                <!-- This PHP script will show the latest review dynamically, and will have a form to add review: -->
                 <?php include "review.php" ?>
             </div>
 
             <div class="page" id="three">
-            <div class="bookHeader" style="background-color: #00877a; padding: 20px; text-align: center;">
-                <h2 style="color:#fff">PHP & MySQL: Server-side Web Development</h2>
-                <ul style="list-style-type: none; padding: 0; align-items: center;text-align: center;">
-                    <li><a href="#">Back to Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="books.php">Read Books</a></li>
-                </ul>
-            </div>
+                <div class="bookHeader" style="background-color: #00877a; padding: 20px; text-align: center;">
+                    <h2 style="color:#fff">PHP & MySQL: Server-side Web Development</h2>
+                    <ul style="list-style-type: none; padding: 0; align-items: center;text-align: center;">
+                        <li><a href="#">Back to Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="books.php">Read Books</a></li>
+                    </ul>
+                </div>
+                <!-- This PHP script will show the latest review dynamically, and will have a form to add review: -->
                 <?php include "review.php" ?>
             </div>
         </section>

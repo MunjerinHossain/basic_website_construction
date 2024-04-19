@@ -1,6 +1,8 @@
 <?php
 include 'db_connect.php';
 
+// This query will retrieve the review data from db and show the reviews dynamically on each of the book page from Home:
+
 $sql = "SELECT * FROM reviews ORDER BY id DESC";
 $result = $conn->query($sql);
 

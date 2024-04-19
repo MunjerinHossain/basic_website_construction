@@ -1,6 +1,8 @@
 <?php
 include 'db_connect.php';
 
+// This query will handle to submit a review to db from individual book page:
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $rating = $_POST['rating'];
